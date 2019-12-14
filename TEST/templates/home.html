@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sprint</title>
+  </head>
+    <body>
+      <h1> Sprint App </h1>
+      <ul>
+        {% for person in people %}
+        <li> {{ person.id }} - {{ person.name }}</li>
+        {% endfor %}
+      </ul>
+      <p> Flask is Fun! </p>
+    </body>
+</html>
